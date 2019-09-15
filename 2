@@ -1,0 +1,16 @@
+#area of a circle, square, rectangle
+
+f=str(input())
+if f=='rectangle':
+ a=int(input())
+ b=int(input())
+ c=int(input())
+ p=(a+b+c)/2
+ print ((p*(p-a)*(p-b)*(p-c))**(1/2))
+elif f=='square':
+ a=int(input())
+ b=int(input())
+ print (a*b)
+elif f=='circle':
+ a=int(input())
+ print (a*3.14*a)
